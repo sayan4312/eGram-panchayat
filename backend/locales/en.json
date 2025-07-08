@@ -1,0 +1,237 @@
+{
+  "auth": {
+    "tokenRequired": "Access token is required",
+    "userNotFound": "User not found",
+    "accountDeactivated": "Account has been deactivated",
+    "invalidToken": "Invalid token",
+    "tokenExpired": "Token has expired",
+    "loginRequired": "Please log in to access this resource",
+    "insufficientPermissions": "Insufficient permissions to access this resource",
+    "staffRoleRequired": "Staff role required",
+    "insufficientSubRolePermissions": "Insufficient sub-role permissions",
+    "noDepartmentAssigned": "No department assigned to staff member",
+    "registrationSuccess": "Registration successful! Welcome to Digital E Gram Panchayat!",
+    "loginSuccess": "Login successful",
+    "logoutSuccess": "Logout successful",
+    "invalidCredentials": "Invalid email or password",
+    "emailAlreadyExists": "Email already exists",
+    "userNotVerified": "Please verify your email before logging in"
+  },
+  "application": {
+    "submitSuccess": "Application submitted successfully",
+    "statusUpdated": "Application status updated successfully",
+    "notFound": "Application not found",
+    "accessDenied": "Access denied to this application",
+    "documentVerified": "Document verified successfully",
+    "commentAdded": "Comment added successfully",
+    "alreadyProcessed": "Application has already been processed"
+  },
+  "service": {
+    "created": "Service created successfully",
+    "updated": "Service updated successfully",
+    "deleted": "Service deleted successfully",
+    "notFound": "Service not found",
+    "templateUploaded": "Template uploaded successfully"
+  },
+  "admin": {
+    "manageStaff": "Staff Management",
+    "addStaff": "Add Staff Member",
+    "editStaff": "Edit Staff",
+    "removeStaff": "Remove Staff",
+    "confirmRemoveStaff": "Are you sure you want to remove this staff member?",
+    "manageServices": "Service Management",
+    "addService": "Add New Service",
+    "editService": "Edit Service",
+    "removeService": "Remove Service",
+    "confirmRemoveService": "Are you sure you want to remove this service?",
+    "logs": {
+      "title": "System Logs",
+      "viewDetails": "View Log Details",
+      "noLogs": "No logs available.",
+      "filterBy": "Filter by type or user..."
+    },
+    "analytics": {
+      "title": "Analytics Dashboard",
+      "applicationsOverTime": "Applications Over Time",
+      "serviceUsage": "Service Usage",
+      "departmentStats": "Department Statistics",
+      "downloadReport": "Download Report"
+    },
+    "announcements": {
+      "title": "Announcements",
+      "create": "Create Announcement",
+      "edit": "Edit Announcement",
+      "delete": "Delete Announcement",
+      "confirmDelete": "Are you sure you want to delete this announcement?"
+    }
+  },
+  "notification": {
+    "sent": "Notification sent successfully",
+    "markAsRead": "Notification marked as read",
+    "markAllAsRead": "All notifications marked as read",
+    "allRead": "All notifications marked as read",
+    "application": {
+      "submitted": {
+        "title": "Application Submitted Successfully",
+        "message": "Your application with tracking ID {{trackingId}} for {{serviceName}} has been submitted successfully."
+      },
+      "statusUpdate": {
+        "title": "Application Status Updated",
+        "default": "Your application status has been updated to {{status}}."
+      },
+      "inReview": "Your application with tracking ID {{trackingId}} is now under review.",
+      "approved": "Congratulations! Your application with tracking ID {{trackingId}} has been approved.",
+      "rejected": "Your application with tracking ID {{trackingId}} has been rejected. Please check for details.",
+      "completed": "Your application with tracking ID {{trackingId}} has been completed successfully.",
+      "assigned": {
+        "title": "Application Assigned",
+        "message": "Your application with tracking ID {{trackingId}} has been assigned to {{staffName}}."
+      }
+    },
+    "document": {
+      "verification": {
+        "title": "Document Verification Update",
+        "message": "Your document '{{documentName}}' for application {{trackingId}} has been {{status}}."
+      }
+    },
+    "announcement": {
+      "title": "New Announcement",
+      "message": "A new announcement has been posted: {{title}}"
+    },
+    "system": {
+      "title": "System Notification",
+      "login": "You have successfully logged into your account.",
+      "passwordChange": "Your password has been changed successfully.",
+      "profileUpdate": "Your profile has been updated successfully.",
+      "accountActivated": "Your account has been activated successfully.",
+      "accountDeactivated": "Your account has been deactivated.",
+      "default": "A system event has occurred."
+    },
+    "admin": {
+      "title": "Administrative Action",
+      "staffCreated": "A new staff member has been created: {{name}}",
+      "staffUpdated": "Staff member {{name}} has been updated.",
+      "staffDeleted": "Staff member {{name}} has been removed.",
+      "serviceCreated": "A new service has been created: {{name}}",
+      "serviceUpdated": "Service {{name}} has been updated.",
+      "serviceDeleted": "Service {{name}} has been removed.",
+      "default": "An administrative action has been performed."
+    }
+  },
+  "user": {
+    "profileUpdated": "Profile updated successfully",
+    "languageUpdated": "Language preference updated successfully",
+    "promoted": "User promoted successfully",
+    "subRolesAssigned": "Sub-roles assigned successfully",
+    "deactivated": "User deactivated successfully",
+    "activated": "User activated successfully"
+  },
+  "upload": {
+    "success": "File uploaded successfully",
+    "invalidFileType": "Invalid file type. Only PDF, JPG, PNG files are allowed",
+    "fileTooLarge": "File size too large. Maximum size is 5MB",
+    "tooManyFiles": "Too many files. Maximum 10 files allowed",
+    "unexpectedField": "Unexpected file field"
+  },
+  "modals": {
+    "confirm": {
+      "title": "Are you sure?",
+      "description": "This action cannot be undone.",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "success": {
+      "title": "Success!",
+      "close": "Close"
+    },
+    "error": {
+      "title": "Error",
+      "close": "Close"
+    }
+  },
+  "tooltips": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View Details",
+    "download": "Download",
+    "filter": "Filter Results",
+    "refresh": "Refresh Data"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "increaseText": "Increase text size",
+    "decreaseText": "Decrease text size",
+    "highContrast": "Toggle high contrast mode"
+  },
+  "help": {
+    "faq": "Frequently Asked Questions",
+    "contactSupport": "Contact Support",
+    "documentation": "Documentation",
+    "howToApply": "How to apply for a service",
+    "troubleshooting": "Troubleshooting"
+  },
+  "status": {
+    "pending": "Pending",
+    "inReview": "In Review",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "completed": "Completed",
+    "processing": "Processing",
+    "assigned": "Assigned",
+    "unassigned": "Unassigned"
+  },
+  "confirmation": {
+    "logout": "Are you sure you want to logout?",
+    "submitApplication": "Are you sure you want to submit this application?",
+    "uploadDocuments": "Are you sure you want to upload these documents?"
+  },
+  "validation": {
+    "failed": "Validation failed"
+  },
+  "errors": {
+    "invalidId": "Invalid ID format",
+    "duplicateField": "{{field}} already exists",
+    "notFound": "Resource not found",
+    "accessDenied": "Access denied",
+    "unauthorized": "Unauthorized",
+    "unauthorizedMessage": "You do not have permission to access this page.",
+    "loginFailed": "Login failed. Please check your credentials.",
+    "registrationFailed": "Registration failed. Please try again.",
+    "applicationSubmitFailed": "Failed to submit application. Please try again.",
+    "fileUploadFailed": "File upload failed. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "A server error occurred. Please try again later.",
+    "forbidden": "You do not have access to this resource.",
+    "validation": "Some fields are invalid. Please check and try again."
+  },
+  "success": {
+    "loginSuccess": "Login successful!",
+    "registrationSuccess": "Registration successful! Welcome to Digital E Gram Panchayat!",
+    "applicationSubmitted": "Application for {{service}} submitted!",
+    "documentsUploaded": "Documents uploaded successfully!",
+    "profileUpdated": "Profile updated successfully!",
+    "settingsSaved": "Settings saved successfully!",
+    "announcementCreated": "Announcement created successfully!",
+    "serviceAdded": "Service added successfully!",
+    "staffAdded": "Staff member added successfully!"
+  },
+  "common": {
+    "serverError": "Internal server error",
+    "success": "Operation completed successfully",
+    "dataRetrieved": "Data retrieved successfully"
+  },
+  "email": {
+    "application": {
+      "statusUpdate": {
+        "subject": "Application Status Update - {{trackingId}}",
+        "title": "Application Status Update"
+      },
+      "service": "Service",
+      "trackingId": "Tracking ID",
+      "status": "Status",
+      "comment": "Comment",
+      "checkDashboard": "Please check your dashboard for more details."
+    },
+    "footer": "© 2024 Digital E Gram Panchayat. Government of India."
+  }
+}

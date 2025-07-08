@@ -1,0 +1,443 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "search": "Search",
+    "filter": "Filter",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "apply": "Apply",
+    "approve": "Approve",
+    "reject": "Reject",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "completed": "Completed",
+    "inReview": "In Review"
+  },
+  "header": {
+    "title": "Digital E Gram Panchayat",
+    "subtitle": "Government of India",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "applications": "My Applications",
+    "upload": "Upload Documents",
+    "about": "About Us",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "landing": {
+    "hero": {
+      "title": "Digital E Gram Panchayat",
+      "subtitle": "Empowering rural communities through digital governance. Access government services from the comfort of your home.",
+      "getStarted": "Get Started",
+      "login": "Login"
+    },
+    "features": {
+      "title": "Why Choose Digital E Gram Panchayat?",
+      "subtitle": "Experience the future of governance with our digital platform designed for efficiency, transparency, and citizen satisfaction.",
+      "secure": {
+        "title": "Secure & Transparent",
+        "description": "End-to-end encryption and transparent processes ensure your data is safe."
+      },
+      "fast": {
+        "title": "Fast Processing",
+        "description": "Digital workflows reduce processing time from weeks to days."
+      },
+      "mobile": {
+        "title": "Mobile Friendly",
+        "description": "Access services anytime, anywhere from your mobile device."
+      },
+      "citizen": {
+        "title": "Citizen Centric",
+        "description": "Designed with citizens in mind for easy and intuitive use."
+      }
+    },
+    "services": {
+      "title": "Available Services",
+      "subtitle": "Access a wide range of government services digitally. No more long queues or multiple visits to government offices."
+    },
+    "cta": {
+      "title": "Ready to Experience Digital Governance?",
+      "subtitle": "Join thousands of citizens who have already transformed their government service experience with our digital platform.",
+      "register": "Register Now",
+      "alreadyAccount": "Already have an account? Login"
+    },
+    "stats": {
+      "citizensServed": "Citizens Served",
+      "servicesAvailable": "Services Available",
+      "successRate": "Success Rate",
+      "supportAvailable": "Support Available"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+  
+      "signIn": "Sign In",
+      "signingIn": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "registerHere": "Register here",
+      "demoAccounts": "Demo Accounts:",
+      "admin": "Admin",
+      "staff": "Staff",
+      "user": "User"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join Digital E Gram Panchayat",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "acceptTerms": "I accept the Terms and Conditions",
+      "createAccount": "Create Account",
+      "creatingAccount": "Creating Account...",
+      "alreadyAccount": "Already have an account?",
+      "signInHere": "Sign in here"
+    },
+    "validation": {
+      "required": "This field is required",
+      "emailInvalid": "Invalid email address",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordMatch": "Passwords do not match",
+      "phoneInvalid": "Invalid phone number",
+      "nameMin": "Name must be at least 2 characters",
+      "termsRequired": "You must accept the terms and conditions"
+    }
+  },
+  "dashboard": {
+    "user": {
+      "title": "Welcome back, {{name}}!",
+      "subtitle": "Manage your applications and access government services from your dashboard.",
+      "quickStats": {
+        "totalApplications": "Total Applications",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "recentApplications": "Recent Applications",
+      "viewAll": "View All",
+      "quickActions": "Quick Actions",
+      "profileSummary": "Profile Summary",
+      "actions": {
+        "applyNew": {
+          "title": "Apply for New Service",
+          "description": "Start a new application for government services"
+        },
+        "viewApplications": {
+          "title": "View Applications",
+          "description": "Check status of your submitted applications"
+        },
+        "uploadDocuments": {
+          "title": "Upload Documents",
+          "description": "Upload required documents for pending applications"
+        }
+      },
+      "profile": {
+        "name": "Name",
+        "accountType": "Account Type",
+        "memberSince": "Member Since"
+      }
+    },
+    "staff": {
+      "title": "Staff Dashboard",
+      "welcome": "Welcome {{name}} - {{department}} Department",
+      "managingServices": "Managing {{count}} services in your department",
+      "servicesUnder": "Services under {{department}} Department:",
+      "stats": {
+        "pendingApplications": "Pending Applications",
+        "inReview": "In Review",
+        "completedToday": "Completed Today",
+        "requiresAction": "Requires Action"
+      },
+      "filters": {
+        "searchPlaceholder": "Search applications...",
+        "allStatus": "All Status",
+        "allDates": "All Dates",
+        "today": "Today",
+        "thisWeek": "This Week",
+        "thisMonth": "This Month",
+        "department": "Department"
+      },
+      "table": {
+        "applicant": "Applicant",
+        "service": "Service",
+        "status": "Status",
+        "submitted": "Submitted",
+        "documents": "Documents",
+        "actions": "Actions",
+        "review": "Review",
+        "docs": "docs"
+      },
+      "noApplications": {
+        "title": "No Applications Found",
+        "noMatch": "No applications match your current filters.",
+        "noDepartment": "No applications found for {{department}} department."
+      }
+    },
+    "admin": {
+      "title": "Admin Dashboard",
+      "subtitle": "Manage Gram Panchayat operations, staff, services, and monitor application analytics.",
+      "tabs": {
+        "overview": "Overview",
+        "staffManagement": "Staff Management",
+        "serviceManagement": "Service Management",
+        "systemLogs": "System Logs",
+        "announcements": "Announcements"
+      },
+      "stats": {
+        "totalApplications": "Total Applications",
+        "activeStaff": "Active Staff",
+        "pendingReviews": "Pending Reviews",
+        "servicesAvailable": "Services Available"
+      }
+    }
+  },
+  "services": {
+    "title": "Government Services",
+    "subtitle": "Apply for various Gram Panchayat services and government schemes online.",
+    "searchPlaceholder": "Search services and schemes...",
+    "categories": {
+      "all": "All Services",
+      "housing": "Housing & Welfare",
+      "water": "Water & Sanitation",
+      "agriculture": "Agriculture",
+      "infrastructure": "Infrastructure",
+      "welfare": "Women & Child Welfare",
+      "certificates": "Certificates"
+    },
+    "processing": "Processing",
+    "documentsRequired": "documents required",
+    "applyNow": "Apply Now",
+    "serviceDetails": "Service Details",
+    "requiredDocuments": "Required Documents:",
+    "basicInformation": "Basic Information",
+    "serviceSpecificInfo": "Service Specific Information",
+    "purpose": "Purpose/Additional Information",
+    "purposePlaceholder": "Please provide any additional information or specific purpose for this application...",
+    "submitApplication": "Submit Application",
+    "submitting": "Submitting...",
+    "selectApplication": "Please select an application",
+    "uploadDocuments": "Please upload at least one document",
+    "waitForUpload": "Please wait for all files to upload"
+  },
+  "applications": {
+    "title": "Applications",
+    "subtitle": "Track and manage all your service applications in one place.",
+    "searchPlaceholder": "Search by service name or tracking ID...",
+    "filters": {
+      "allStatus": "All Status",
+      "pending": "Pending",
+      "inReview": "In Review",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "completed": "Completed"
+    },
+    "table": {
+      "service": "Service",
+      "trackingId": "Tracking ID",
+      "status": "Status",
+      "appliedDate": "Applied Date",
+      "fee": "Fee",
+      "actions": "Actions"
+    },
+    "details": {
+      "title": "Application Details",
+      "service": "Service",
+      "trackingId": "Tracking ID",
+      "status": "Status",
+      "fee": "Fee",
+      "appliedDate": "Applied Date",
+      "approvedDate": "Approved Date",
+      "documentsSubmitted": "Documents Submitted",
+      "comments": "Comments",
+      "downloadCertificate": "Download Certificate"
+    }
+  },
+  "upload": {
+    "title": "Upload Documents",
+    "subtitle": "Upload required documents for your pending applications.",
+    "selectApplication": "Select Application",
+    "chooseApplication": "Choose an application...",
+    "dropFiles": "Drop files here or click to upload",
+    "supportedFormats": "Supported formats: PDF, JPG, PNG (Max size: 5MB per file)",
+    "chooseFiles": "Choose Files",
+    "uploadedFiles": "Uploaded Files",
+    "guidelines": {
+      "title": "Upload Guidelines",
+      "clear": "Ensure documents are clear and readable",
+      "formats": "File formats: PDF, JPG, PNG only",
+      "maxSize": "Maximum file size: 5MB per document",
+      "dpi": "Scan documents at 300 DPI for best quality",
+      "noBlur": "Avoid uploading blurry or rotated images",
+      "legible": "Make sure all text is legible"
+    },
+    "submitDocuments": "Submit Documents"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Stay updated with your application status and system announcements.",
+    "markAllRead": "Mark all as read",
+    "markAsRead": "Mark as read",
+    "allRead": "All notifications marked as read",
+    "noNotifications": {
+      "title": "No notifications",
+      "subtitle": "You're all caught up! Check back later for updates."
+    },
+    "settings": {
+      "title": "Notification Settings",
+      "applicationUpdates": {
+        "title": "Application Updates",
+        "description": "Get notified when your application status changes"
+      },
+      "systemAnnouncements": {
+        "title": "System Announcements",
+        "description": "Receive important system updates and maintenance notices"
+      },
+      
+      "savePreferences": "Save Preferences"
+    }
+  },
+  "footer": {
+    "description": "Empowering rural communities through digital governance. Making government services accessible, transparent, and efficient for every citizen.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "copyright": "© 2024 Digital E Gram Panchayat. All rights reserved. Government of India.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "accessibility": "Accessibility"
+  },
+  "admin": {
+    "manageStaff": "Manage Staff",
+    "addStaff": "Add Staff Member",
+    "editStaff": "Edit Staff",
+    "removeStaff": "Remove Staff",
+    "confirmRemoveStaff": "Are you sure you want to remove this staff member?",
+    "manageServices": "Manage Services",
+    "addService": "Add New Service",
+    "editService": "Edit Service",
+    "removeService": "Remove Service",
+    "confirmRemoveService": "Are you sure you want to remove this service?",
+    "logs": {
+      "title": "System Logs",
+      "viewDetails": "View Log Details",
+      "noLogs": "No logs available.",
+      "filterBy": "Filter by type or user..."
+    },
+    "analytics": {
+      "title": "Analytics Dashboard",
+      "applicationsOverTime": "Applications Over Time",
+      "serviceUsage": "Service Usage",
+      "departmentStats": "Department Statistics",
+      "downloadReport": "Download Report"
+    },
+    "announcements": {
+      "title": "Announcements",
+      "create": "Create Announcement",
+      "edit": "Edit Announcement",
+      "delete": "Delete Announcement",
+      "confirmDelete": "Are you sure you want to delete this announcement?"
+    }
+  },
+  "modals": {
+    "confirm": {
+      "title": "Are you sure?",
+      "description": "This action cannot be undone.",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "success": {
+      "title": "Success!",
+      "close": "Close"
+    },
+    "error": {
+      "title": "Error",
+      "close": "Close"
+    }
+  },
+  "tooltips": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View Details",
+    "download": "Download",
+    "filter": "Filter Results",
+    "refresh": "Refresh Data"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "increaseText": "Increase text size",
+    "decreaseText": "Decrease text size",
+    "highContrast": "Toggle high contrast mode"
+  },
+  "help": {
+    "faq": "Frequently Asked Questions",
+    "contactSupport": "Contact Support",
+    "documentation": "Documentation",
+    "howToApply": "How to Apply for a Service",
+    "troubleshooting": "Troubleshooting"
+  },
+  "status": {
+    "pending": "Pending",
+    "inReview": "In Review",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "completed": "Completed",
+    "processing": "Processing",
+    "assigned": "Assigned",
+    "unassigned": "Unassigned"
+  },
+  "confirmation": {
+    "logout": "Are you sure you want to logout?",
+    "submitApplication": "Are you sure you want to submit this application?",
+    "uploadDocuments": "Are you sure you want to upload these documents?"
+  },
+  "errors": {
+    "unauthorized": "Unauthorized",
+    "unauthorizedMessage": "You don't have permission to access this page.",
+    "loginFailed": "Login failed. Please check your credentials.",
+    "registrationFailed": "Registration failed. Please try again.",
+    "applicationSubmitFailed": "Failed to submit application. Please try again.",
+    "fileUploadFailed": "File upload failed. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "notFound": "The requested resource was not found.",
+    "serverError": "A server error occurred. Please try again later.",
+    "forbidden": "You do not have access to this resource.",
+    "validation": "Some fields are invalid. Please check and try again."
+  },
+  "success": {
+    "loginSuccess": "Login successful!",
+    "registrationSuccess": "Registration successful! Welcome to Digital E Gram Panchayat!",
+    "applicationSubmitted": "Application submitted for {{service}}!",
+    "documentsUploaded": "Documents uploaded successfully!",
+    "profileUpdated": "Profile updated successfully!",
+    "settingsSaved": "Settings saved successfully!",
+    "announcementCreated": "Announcement created successfully!",
+    "serviceAdded": "Service added successfully!",
+    "staffAdded": "Staff member added successfully!"
+  }
+}

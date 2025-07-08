@@ -1,0 +1,442 @@
+{
+  "common": {
+    "loading": "લોડ થઈ રહ્યું છે...",
+    "submit": "સબમિટ કરો",
+    "cancel": "રદ કરો",
+    "save": "સેવ કરો",
+    "edit": "સંપાદિત કરો",
+    "delete": "ડિલીટ કરો",
+    "view": "જુઓ",
+    "download": "ડાઉનલોડ",
+    "upload": "અપલોડ",
+    "search": "શોધો",
+    "filter": "ફિલ્ટર",
+    "next": "આગળ",
+    "previous": "પાછળ",
+    "close": "બંધ કરો",
+    "yes": "હા",
+    "no": "ના",
+    "apply": "અરજી કરો",
+    "approve": "મંજૂર કરો",
+    "reject": "નકારો",
+    "pending": "બાકી",
+    "approved": "મંજૂર",
+    "rejected": "નકારેલ",
+    "completed": "પૂર્ણ",
+    "inReview": "સમીક્ષામાં"
+  },
+  "header": {
+    "title": "ડિજિટલ ઈ ગ્રામ પંચાયત",
+    "subtitle": "ભારત સરકાર",
+    "login": "લોગિન",
+    "register": "નોંધણી",
+    "logout": "લોગઆઉટ",
+    "dashboard": "ડેશબોર્ડ",
+    "notifications": "સૂચનાઓ",
+    "profile": "પ્રોફાઇલ",
+    "settings": "સેટિંગ્સ"
+  },
+  "navigation": {
+    "home": "હોમ",
+    "services": "સેવાઓ",
+    "applications": "મારી અરજીઓ",
+    "upload": "દસ્તાવેજો અપલોડ કરો",
+    "about": "અમારા વિશે",
+    "contact": "સંપર્ક",
+    "faq": "વારંવાર પૂછાતા પ્રશ્નો"
+  },
+  "landing": {
+    "hero": {
+      "title": "ડિજિટલ ઈ ગ્રામ પંચાયત",
+      "subtitle": "ડિજિટલ શાસન દ્વારા ગ્રામીણ સમુદાયોને સશક્ત બનાવવું. તમારા ઘરના આરામથી સરકારી સેવાઓનો ઉપયોગ કરો.",
+      "getStarted": "શરૂ કરો",
+      "login": "લોગિન"
+    },
+    "features": {
+      "title": "ડિજિટલ ઈ ગ્રામ પંચાયત કેમ પસંદ કરવું?",
+      "subtitle": "કાર્યક્ષમતા, પારદર્શિતા અને નાગરિક સંતોષ માટે ડિઝાઇન કરેલા અમારા ડિજિટલ પ્લેટફોર્મ સાથે શાસનના ભવિષ્યનો અનુભવ કરો.",
+      "secure": {
+        "title": "સુરક્ષિત અને પારદર્શક",
+        "description": "એન્ડ-ટુ-એન્ડ એન્ક્રિપ્શન અને પારદર્શક પ્રક્રિયાઓ ખાતરી કરે છે કે તમારો ડેટા સુરક્ષિત છે."
+      },
+      "fast": {
+        "title": "ઝડપી પ્રોસેસિંગ",
+        "description": "ડિજિટલ વર્કફ્લો પ્રોસેસિંગ સમયને અઠવાડિયાથી દિવસોમાં ઘટાડે છે."
+      },
+      "mobile": {
+        "title": "મોબાઇલ ફ્રેન્ડલી",
+        "description": "તમારા મોબાઇલ ડિવાઇસથી ગમે ત્યારે, ગમે ત્યાં સેવાઓનો ઉપયોગ કરો."
+      },
+      "citizen": {
+        "title": "નાગરિક કેન્દ્રિત",
+        "description": "સરળ અને સહજ ઉપયોગ માટે નાગરિકોને ધ્યાનમાં રાખીને ડિઝાઇન કરેલ."
+      }
+    },
+    "services": {
+      "title": "ઉપલબ્ધ સેવાઓ",
+      "subtitle": "ડિજિટલ રીતે સરકારી સેવાઓની વિશાળ શ્રેણીનો ઉપયોગ કરો. હવે લાંબી લાઇનો અથવા સરકારી કચેરીઓમાં વારંવાર જવાની જરૂર નથી."
+    },
+    "cta": {
+      "title": "ડિજિટલ શાસનનો અનુભવ કરવા તૈયાર છો?",
+      "subtitle": "અમારા ડિજિટલ પ્લેટફોર્મ સાથે તેમના સરકારી સેવા અનુભવને પહેલેથી જ બદલી નાખેલા હજારો નાગરિકો સાથે જોડાઓ.",
+      "register": "હમણાં નોંધણી કરો",
+      "alreadyAccount": "પહેલેથી એકાઉન્ટ છે? લોગિન કરો"
+    },
+    "stats": {
+      "citizensServed": "સેવા આપેલા નાગરિકો",
+      "servicesAvailable": "ઉપલબ્ધ સેવાઓ",
+      "successRate": "સફળતા દર",
+      "supportAvailable": "સહાય ઉપલબ્ધ"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "પાછા આવવા બદલ સ્વાગત છે",
+      "subtitle": "તમારા એકાઉન્ટમાં સાઇન ઇન કરો",
+      "email": "ઇમેઇલ સરનામું",
+      "password": "પાસવર્ડ",
+      "rememberMe": "મને યાદ રાખો",
+  
+      "signIn": "સાઇન ઇન",
+      "signingIn": "સાઇન ઇન થઈ રહ્યું છે...",
+      "noAccount": "એકાઉન્ટ નથી?",
+      "registerHere": "અહીં નોંધણી કરો",
+      "demoAccounts": "ડેમો એકાઉન્ટ્સ:",
+      "admin": "એડમિન",
+      "staff": "સ્ટાફ",
+      "user": "વપરાશકર્તા"
+    },
+    "register": {
+      "title": "એકાઉન્ટ બનાવો",
+      "subtitle": "ડિજિટલ ઈ ગ્રામ પંચાયતમાં જોડાઓ",
+      "fullName": "પૂરું નામ",
+      "email": "ઇમેઇલ સરનામું",
+      "phone": "ફોન નંબર",
+      "password": "પાસવર્ડ",
+      "confirmPassword": "પાસવર્ડની પુષ્ટિ કરો",
+      "acceptTerms": "હું નિયમો અને શરતો સ્વીકારું છું",
+      "createAccount": "એકાઉન્ટ બનાવો",
+      "creatingAccount": "એકાઉન્ટ બનાવાઈ રહ્યું છે...",
+      "alreadyAccount": "પહેલેથી એકાઉન્ટ છે?",
+      "signInHere": "અહીં સાઇન ઇન કરો"
+    },
+    "validation": {
+      "required": "આ ફીલ્ડ આવશ્યક છે",
+      "emailInvalid": "અમાન્ય ઇમેઇલ સરનામું",
+      "passwordMin": "પાસવર્ડ ઓછામાં ઓછા 6 અક્ષરોનો હોવો જોઈએ",
+      "passwordMatch": "પાસવર્ડ મેળ ખાતા નથી",
+      "phoneInvalid": "અમાન્ય ફોન નંબર",
+      "nameMin": "નામ ઓછામાં ઓછા 2 અક્ષરોનું હોવું જોઈએ",
+      "termsRequired": "તમારે નિયમો અને શરતો સ્વીકારવી જોઈએ"
+    }
+  },
+  "dashboard": {
+    "user": {
+      "title": "પાછા આવવા બદલ સ્વાગત છે, {{name}}!",
+      "subtitle": "તમારી અરજીઓનું સંચાલન કરો અને તમારા ડેશબોર્ડથી સરકારી સેવાઓનો ઉપયોગ કરો.",
+      "quickStats": {
+        "totalApplications": "કુલ અરજીઓ",
+        "pending": "બાકી",
+        "approved": "મંજૂર",
+        "rejected": "નકારેલ"
+      },
+      "recentApplications": "તાજેતરની અરજીઓ",
+      "viewAll": "બધું જુઓ",
+      "quickActions": "ઝડપી ક્રિયાઓ",
+      "profileSummary": "પ્રોફાઇલ સારાંશ",
+      "actions": {
+        "applyNew": {
+          "title": "નવી સેવા માટે અરજી કરો",
+          "description": "સરકારી સેવાઓ માટે નવી અરજી શરૂ કરો"
+        },
+        "viewApplications": {
+          "title": "અરજીઓ જુઓ",
+          "description": "તમારી સબમિટ કરેલી અરજીઓની સ્થિતિ તપાસો"
+        },
+        "uploadDocuments": {
+          "title": "દસ્તાવેજો અપલોડ કરો",
+          "description": "બાકી અરજીઓ માટે આવશ્યક દસ્તાવેજો અપલોડ કરો"
+        }
+      },
+      "profile": {
+        "name": "નામ",
+        "accountType": "એકાઉન્ટ પ્રકાર",
+        "memberSince": "સભ્ય બન્યા ત્યારથી"
+      }
+    },
+    "staff": {
+      "title": "સ્ટાફ ડેશબોર્ડ",
+      "welcome": "સ્વાગત છે {{name}} - {{department}} વિભાગ",
+      "managingServices": "તમારા વિભાગમાં {{count}} સેવાઓનું સંચાલન",
+      "servicesUnder": "{{department}} વિભાગ હેઠળની સેવાઓ:",
+      "stats": {
+        "pendingApplications": "બાકી અરજીઓ",
+        "inReview": "સમીક્ષામાં",
+        "completedToday": "આજે પૂર્ણ",
+        "requiresAction": "ક્રિયા આવશ્યક"
+      },
+      "filters": {
+        "searchPlaceholder": "અરજીઓ શોધો...",
+        "allStatus": "બધી સ્થિતિ",
+        "allDates": "બધી તારીખો",
+        "today": "આજે",
+        "thisWeek": "આ અઠવાડિયે",
+        "thisMonth": "આ મહિને",
+        "department": "વિભાગ"
+      },
+      "table": {
+        "applicant": "અરજદાર",
+        "service": "સેવા",
+        "status": "સ્થિતિ",
+        "submitted": "સબમિટ કરેલ",
+        "documents": "દસ્તાવેજો",
+        "actions": "ક્રિયાઓ",
+        "review": "સમીક્ષા",
+        "docs": "દસ્તાવેજો"
+      },
+      "noApplications": {
+        "title": "કોઈ અરજીઓ મળી નથી",
+        "noMatch": "તમારા વર્તમાન ફિલ્ટર સાથે કોઈ અરજીઓ મેળ ખાતી નથી.",
+        "noDepartment": "{{department}} વિભાગ માટે કોઈ અરજીઓ મળી નથી."
+      }
+    },
+    "admin": {
+      "title": "એડમિન ડેશબોર્ડ",
+      "subtitle": "ગ્રામ પંચાયત કામકાજ, સ્ટાફ, સેવાઓનું સંચાલન કરો અને અરજી વિશ્લેષણનું નિરીક્ષણ કરો.",
+      "tabs": {
+        "overview": "ઝાંખી",
+        "staffManagement": "સ્ટાફ મેનેજમેન્ટ",
+        "serviceManagement": "સેવા મેનેજમેન્ટ",
+        "systemLogs": "સિસ્ટમ લોગ્સ",
+        "announcements": "જાહેરાતો"
+      },
+      "stats": {
+        "totalApplications": "કુલ અરજીઓ",
+        "activeStaff": "સક્રિય સ્ટાફ",
+        "pendingReviews": "બાકી સમીક્ષાઓ",
+        "servicesAvailable": "ઉપલબ્ધ સેવાઓ"
+      }
+    }
+  },
+  "services": {
+    "title": "સરકારી સેવાઓ",
+    "subtitle": "વિવિધ ગ્રામ પંચાયત સેવાઓ અને સરકારી યોજનાઓ માટે ઓનલાઇન અરજી કરો.",
+    "searchPlaceholder": "સેવાઓ અને યોજનાઓ શોધો...",
+    "categories": {
+      "all": "બધી સેવાઓ",
+      "housing": "આવાસ અને કલ્યાણ",
+      "water": "પાણી અને સ્વચ્છતા",
+      "agriculture": "કૃષિ",
+      "infrastructure": "ઇન્ફ્રાસ્ટ્રક્ચર",
+      "welfare": "મહિલા અને બાળ કલ્યાણ",
+      "certificates": "પ્રમાણપત્રો"
+    },
+    "processing": "પ્રોસેસિંગ",
+    "documentsRequired": "દસ્તાવેજો આવશ્યક",
+    "applyNow": "હમણાં અરજી કરો",
+    "serviceDetails": "સેવા વિગતો",
+    "requiredDocuments": "આવશ્યક દસ્તાવેજો:",
+    "basicInformation": "મૂળભૂત માહિતી",
+    "serviceSpecificInfo": "સેવા વિશિષ્ટ માહિતી",
+    "purpose": "હેતુ/વધારાની માહિતી",
+    "purposePlaceholder": "કૃપા કરીને આ અરજી માટે કોઈપણ વધારાની માહિતી અથવા વિશિષ્ટ હેતુ પ્રદાન કરો...",
+    "submitApplication": "અરજી સબમિટ કરો",
+    "submitting": "સબમિટ થઈ રહ્યું છે...",
+    "selectApplication": "કૃપા કરીને એક અરજી પસંદ કરો",
+    "uploadDocuments": "કૃપા કરીને ઓછામાં ઓછો એક દસ્તાવેજ અપલોડ કરો",
+    "waitForUpload": "કૃપા કરીને બધી ફાઇલો અપલોડ થવાની રાહ જુઓ"
+  },
+  "applications": {
+    "title": "મારી અરજીઓ",
+    "subtitle": "તમારી બધી સેવા અરજીઓને એક જગ્યાએ ટ્રેક કરો અને મેનેજ કરો.",
+    "searchPlaceholder": "સેવા નામ અથવા ટ્રેકિંગ ID દ્વારા શોધો...",
+    "filters": {
+      "allStatus": "બધી સ્થિતિ",
+      "pending": "બાકી",
+      "inReview": "સમીક્ષામાં",
+      "approved": "મંજૂર",
+      "rejected": "નકારેલ",
+      "completed": "પૂર્ણ"
+    },
+    "table": {
+      "service": "સેવા",
+      "trackingId": "ટ્રેકિંગ ID",
+      "status": "સ્થિતિ",
+      "appliedDate": "અરજી કરેલ તારીખ",
+      "fee": "ફી",
+      "actions": "ક્રિયાઓ"
+    },
+    "details": {
+      "title": "અરજી વિગતો",
+      "service": "સેવા",
+      "trackingId": "ટ્રેકિંગ ID",
+      "status": "સ્થિતિ",
+      "fee": "ફી",
+      "appliedDate": "અરજી કરેલ તારીખ",
+      "approvedDate": "મંજૂર કરેલ તારીખ",
+      "documentsSubmitted": "સબમિટ કરેલા દસ્તાવેજો",
+      "comments": "ટિપ્પણીઓ",
+      "downloadCertificate": "પ્રમાણપત્ર ડાઉનલોડ કરો"
+    }
+  },
+  "upload": {
+    "title": "દસ્તાવેજો અપલોડ કરો",
+    "subtitle": "તમારી બાકી અરજીઓ માટે આવશ્યક દસ્તાવેજો અપલોડ કરો.",
+    "selectApplication": "અરજી પસંદ કરો",
+    "chooseApplication": "એક અરજી પસંદ કરો...",
+    "dropFiles": "ફાઇલો અહીં છોડો અથવા અપલોડ કરવા માટે ક્લિક કરો",
+    "supportedFormats": "સપોર્ટેડ ફોર્મેટ: PDF, JPG, PNG (મહત્તમ સાઇઝ: પ્રતિ ફાઇલ 5MB)",
+    "chooseFiles": "ફાઇલો પસંદ કરો",
+    "uploadedFiles": "અપલોડ કરેલી ફાઇલો",
+    "guidelines": {
+      "title": "અપલોડ માર્ગદર્શિકા",
+      "clear": "ખાતરી કરો કે દસ્તાવેજો સ્પષ્ટ અને વાંચવા યોગ્ય છે",
+      "formats": "ફાઇલ ફોર્મેટ: માત્ર PDF, JPG, PNG",
+      "maxSize": "મહત્તમ ફાઇલ સાઇઝ: પ્રતિ દસ્તાવેજ 5MB",
+      "dpi": "શ્રેષ્ઠ ગુણવત્તા માટે 300 DPI પર દસ્તાવેજો સ્કેન કરો",
+      "noBlur": "અસ્પષ્ટ અથવા ફેરવેલી છબીઓ અપલોડ કરવાનું ટાળો",
+      "legible": "ખાતરી કરો કે બધું ટેક્સ્ટ વાંચવા યોગ્ય છે"
+    },
+    "submitDocuments": "દસ્તાવેજો સબમિટ કરો"
+  },
+  "notifications": {
+    "title": "સૂચનાઓ",
+    "subtitle": "તમારી અરજીની સ્થિતિ અને સિસ્ટમ જાહેરાતો સાથે અપડેટ રહો.",
+    "markAllRead": "બધાને વાંચેલા તરીકે ચિહ્નિત કરો",
+    "markAsRead": "વાંચેલા તરીકે ચિહ્નિત કરો",
+    "noNotifications": {
+      "title": "કોઈ સૂચનાઓ નથી",
+      "subtitle": "તમે બધા અપડેટ્સ જોયા છે! અપડેટ્સ માટે પછીથી પાછા આવો."
+    },
+    "settings": {
+      "title": "સૂચના સેટિંગ્સ",
+      "applicationUpdates": {
+        "title": "અરજી અપડેટ્સ",
+        "description": "જ્યારે તમારી અરજીની સ્થિતિ બદલાય ત્યારે સૂચના મેળવો"
+      },
+      "systemAnnouncements": {
+        "title": "સિસ્ટમ જાહેરાતો",
+        "description": "મહત્વપૂર્ણ સિસ્ટમ અપડેટ્સ અને જાળવણી સૂચનાઓ મેળવો"
+      },
+
+      "savePreferences": "પસંદગીઓ સેવ કરો"
+    }
+  },
+  "footer": {
+    "description": "ડિજિટલ શાસન દ્વારા ગ્રામીણ સમુદાયોને સશક્ત બનાવવા. દરેક નાગરિક માટે સરકારી સેવાઓને સુલભ, પારદર્શક અને કાર્યક્ષમ બનાવવી.",
+    "quickLinks": "ઝડપી લિંક્સ",
+    "contactUs": "અમારો સંપર્ક કરો",
+    "copyright": "© 2024 ડિજિટલ ઈ ગ્રામ પંચાયત. બધા અધિકારો સુરક્ષિત. ભારત સરકાર.",
+    "privacyPolicy": "ગોપનીયતા નીતિ",
+    "termsOfService": "સેવાની શરતો",
+    "accessibility": "પ્રવેશયોગ્યતા"
+  },
+  "admin": {
+    "manageStaff": "સ્ટાફ વ્યવસ્થાપન",
+    "addStaff": "સ્ટાફ સભ્ય ઉમેરો",
+    "editStaff": "સ્ટાફ સંપાદિત કરો",
+    "removeStaff": "સ્ટાફ દૂર કરો",
+    "confirmRemoveStaff": "શું તમે ખરેખર આ સ્ટાફ સભ્યને દૂર કરવા માંગો છો?",
+    "manageServices": "સેવાઓનું વ્યવસ્થાપન",
+    "addService": "નવી સેવા ઉમેરો",
+    "editService": "સેવા સંપાદિત કરો",
+    "removeService": "સેવા દૂર કરો",
+    "confirmRemoveService": "શું તમે ખરેખર આ સેવાને દૂર કરવા માંગો છો?",
+    "logs": {
+      "title": "સિસ્ટમ લૉગ્સ",
+      "viewDetails": "લૉગ વિગતો જુઓ",
+      "noLogs": "કોઈ લૉગ્સ ઉપલબ્ધ નથી.",
+      "filterBy": "પ્રકાર અથવા વપરાશકર્તા દ્વારા ફિલ્ટર કરો..."
+    },
+    "analytics": {
+      "title": "વિશ્લેષણ ડેશબોર્ડ",
+      "applicationsOverTime": "સમય સાથે એપ્લિકેશન્સ",
+      "serviceUsage": "સેવા વપરાશ",
+      "departmentStats": "વિભાગ આંકડા",
+      "downloadReport": "રિપોર્ટ ડાઉનલોડ કરો"
+    },
+    "announcements": {
+      "title": "જાહેરાતો",
+      "create": "જાહેરાત બનાવો",
+      "edit": "જાહેરાત સંપાદિત કરો",
+      "delete": "જાહેરાત દૂર કરો",
+      "confirmDelete": "શું તમે ખરેખર આ જાહેરાતને દૂર કરવા માંગો છો?"
+    }
+  },
+  "modals": {
+    "confirm": {
+      "title": "શું તમે ચોક્કસ છો?",
+      "description": "આ ક્રિયા પાછી મેળવી શકાશે નહીં.",
+      "confirm": "પુષ્ટિ કરો",
+      "cancel": "રદ કરો"
+    },
+    "success": {
+      "title": "સફળ!",
+      "close": "બંધ કરો"
+    },
+    "error": {
+      "title": "ભૂલ",
+      "close": "બંધ કરો"
+    }
+  },
+  "tooltips": {
+    "edit": "સંપાદિત કરો",
+    "delete": "દૂર કરો",
+    "view": "વિગતો જુઓ",
+    "download": "ડાઉનલોડ કરો",
+    "filter": "પરિણામો ફિલ્ટર કરો",
+    "refresh": "ડેટા રિફ્રેશ કરો"
+  },
+  "accessibility": {
+    "skipToContent": "મુખ્ય સામગ્રી પર જાઓ",
+    "increaseText": "ટેક્સ્ટ કદ વધારો",
+    "decreaseText": "ટેક્સ્ટ કદ ઘટાડો",
+    "highContrast": "ઉચ્ચ કન્ટ્રાસ્ટ મોડ ટૉગલ કરો"
+  },
+  "help": {
+    "faq": "વારંવાર પૂછાતા પ્રશ્નો",
+    "contactSupport": "સમર્થન સાથે સંપર્ક કરો",
+    "documentation": "દસ્તાવેજીકરણ",
+    "howToApply": "સેવા માટે કેવી રીતે અરજી કરવી",
+    "troubleshooting": "સમસ્યા સમાધાન"
+  },
+  "status": {
+    "pending": "બાકી",
+    "inReview": "સમીક્ષામાં",
+    "approved": "મંજૂર",
+    "rejected": "નકારી",
+    "completed": "પૂર્ણ",
+    "processing": "પ્રક્રિયામાં",
+    "assigned": "સોંપેલું",
+    "unassigned": "સોંપેલું નથી"
+  },
+  "confirmation": {
+    "logout": "શું તમે ખરેખર લૉગઆઉટ કરવા માંગો છો?",
+    "submitApplication": "શું તમે ખરેખર આ અરજી સબમિટ કરવા માંગો છો?",
+    "uploadDocuments": "શું તમે ખરેખર આ દસ્તાવેજો અપલોડ કરવા માંગો છો?"
+  },
+  "errors": {
+    "unauthorized": "અનધિકૃત",
+    "unauthorizedMessage": "તમારી પાસે આ પૃષ્ઠનો પ્રવેશ નથી.",
+    "loginFailed": "લૉગિન નિષ્ફળ. કૃપા કરી તમારી ક્રેડેન્શિયલ્સ તપાસો.",
+    "registrationFailed": "નોંધણી નિષ્ફળ. કૃપા કરી ફરીથી પ્રયાસ કરો.",
+    "applicationSubmitFailed": "અરજી સબમિટ કરવામાં નિષ્ફળ. કૃપા કરી ફરીથી પ્રયાસ કરો.",
+    "fileUploadFailed": "ફાઇલ અપલોડ નિષ્ફળ. કૃપા કરી ફરીથી પ્રયાસ કરો.",
+    "networkError": "નેટવર્ક ભૂલ. કૃપા કરી તમારું કનેક્શન તપાસો.",
+    "notFound": "વિનંતી કરેલો સ્ત્રોત મળ્યો નથી.",
+    "serverError": "સર્વર ભૂલ આવી. કૃપા કરી પછી ફરીથી પ્રયાસ કરો.",
+    "forbidden": "તમારી પાસે આ સ્ત્રોતનો પ્રવેશ નથી.",
+    "validation": "કેટલાક ફીલ્ડ અમાન્ય છે. કૃપા કરી તપાસો અને ફરીથી પ્રયાસ કરો."
+  },
+  "success": {
+    "loginSuccess": "લૉગિન સફળ!",
+    "registrationSuccess": "નોંધણી સફળ! ડિજિટલ ઈ ગ્રામ પંચાયતમાં સ્વાગત છે!",
+    "applicationSubmitted": "{{service}} માટે અરજી સબમિટ કરી!",
+    "documentsUploaded": "દસ્તાવેજો સફળતાપૂર્વક અપલોડ કર્યા!",
+    "profileUpdated": "પ્રોફાઇલ સફળતાપૂર્વક અપડેટ કર્યું!",
+    "settingsSaved": "સેટિંગ્સ સફળતાપૂર્વક સેવ કરી!",
+    "announcementCreated": "જાહેરાત સફળતાપૂર્વક બનાવી!",
+    "serviceAdded": "સેવા સફળતાપૂર્વક ઉમેરી!",
+    "staffAdded": "સ્ટાફ સભ્ય સફળતાપૂર્વક ઉમેર્યો!"
+  }
+}

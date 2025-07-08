@@ -1,0 +1,237 @@
+{
+  "auth": {
+    "tokenRequired": "एक्सेस टोकन आवश्यक है",
+    "userNotFound": "उपयोगकर्ता नहीं मिला",
+    "accountDeactivated": "खाता निष्क्रिय कर दिया गया है",
+    "invalidToken": "अमान्य टोकन",
+    "tokenExpired": "टोकन की अवधि समाप्त हो गई है",
+    "loginRequired": "इस संसाधन तक पहुंचने के लिए कृपया लॉग इन करें",
+    "insufficientPermissions": "इस संसाधन तक पहुंचने के लिए अपर्याप्त अनुमतियां",
+    "staffRoleRequired": "स्टाफ भूमिका आवश्यक",
+    "insufficientSubRolePermissions": "अपर्याप्त उप-भूमिका अनुमतियां",
+    "noDepartmentAssigned": "स्टाफ सदस्य को कोई विभाग नहीं सौंपा गया",
+    "registrationSuccess": "पंजीकरण सफल! डिजिटल ई ग्राम पंचायत में आपका स्वागत है!",
+    "loginSuccess": "लॉगिन सफल",
+    "logoutSuccess": "लॉगआउट सफल",
+    "invalidCredentials": "अमान्य ईमेल या पासवर्ड",
+    "emailAlreadyExists": "ईमेल पहले से मौजूद है",
+    "userNotVerified": "लॉग इन करने से पहले कृपया अपना ईमेल सत्यापित करें"
+  },
+  "application": {
+    "submitSuccess": "आवेदन सफलतापूर्वक जमा किया गया",
+    "statusUpdated": "आवेदन स्थिति सफलतापूर्वक अपडेट की गई",
+    "notFound": "आवेदन नहीं मिला",
+    "accessDenied": "इस आवेदन तक पहुंच से इनकार",
+    "documentVerified": "दस्तावेज़ सफलतापूर्वक सत्यापित",
+    "commentAdded": "टिप्पणी सफलतापूर्वक जोड़ी गई",
+    "alreadyProcessed": "आवेदन पहले से ही संसाधित हो चुका है"
+  },
+  "service": {
+    "created": "सेवा सफलतापूर्वक बनाई गई",
+    "updated": "सेवा सफलतापूर्वक अपडेट की गई",
+    "deleted": "सेवा सफलतापूर्वक हटाई गई",
+    "notFound": "सेवा नहीं मिली",
+    "templateUploaded": "टेम्प्लेट सफलतापूर्वक अपलोड किया गया"
+  },
+  "admin": {
+    "manageStaff": "स्टाफ प्रबंधन",
+    "addStaff": "स्टाफ सदस्य जोड़ें",
+    "editStaff": "स्टाफ संपादित करें",
+    "removeStaff": "स्टाफ हटाएं",
+    "confirmRemoveStaff": "क्या आप वाकई इस स्टाफ सदस्य को हटाना चाहते हैं?",
+    "manageServices": "सेवाओं का प्रबंधन",
+    "addService": "नई सेवा जोड़ें",
+    "editService": "सेवा संपादित करें",
+    "removeService": "सेवा हटाएं",
+    "confirmRemoveService": "क्या आप वाकई इस सेवा को हटाना चाहते हैं?",
+    "logs": {
+      "title": "सिस्टम लॉग",
+      "viewDetails": "लॉग विवरण देखें",
+      "noLogs": "कोई लॉग उपलब्ध नहीं।",
+      "filterBy": "प्रकार या उपयोगकर्ता द्वारा फ़िल्टर करें..."
+    },
+    "analytics": {
+      "title": "विश्लेषण डैशबोर्ड",
+      "applicationsOverTime": "समय के साथ आवेदन",
+      "serviceUsage": "सेवा उपयोग",
+      "departmentStats": "विभाग आंकड़े",
+      "downloadReport": "रिपोर्ट डाउनलोड करें"
+    },
+    "announcements": {
+      "title": "घोषणाएं",
+      "create": "घोषणा बनाएं",
+      "edit": "घोषणा संपादित करें",
+      "delete": "घोषणा हटाएं",
+      "confirmDelete": "क्या आप वाकई इस घोषणा को हटाना चाहते हैं?"
+    }
+  },
+  "notification": {
+    "sent": "सूचना सफलतापूर्वक भेजी गई",
+    "markAsRead": "सूचना को पढ़ा हुआ चिह्नित किया गया",
+    "markAllAsRead": "सभी सूचनाओं को पढ़ा हुआ चिह्नित किया गया",
+    "allRead": "सभी सूचनाओं को पढ़ा हुआ चिह्नित किया गया",
+    "application": {
+      "submitted": {
+        "title": "आवेदन सफलतापूर्वक जमा किया गया",
+        "message": "{{serviceName}} के लिए ट्रैकिंग आईडी {{trackingId}} के साथ आपका आवेदन सफलतापूर्वक जमा किया गया है।"
+      },
+      "statusUpdate": {
+        "title": "आवेदन स्थिति अपडेट",
+        "default": "आपकी आवेदन स्थिति {{status}} में अपडेट की गई है।"
+      },
+      "inReview": "ट्रैकिंग आईडी {{trackingId}} के साथ आपका आवेदन अब समीक्षाधीन है।",
+      "approved": "बधाई हो! ट्रैकिंग आईडी {{trackingId}} के साथ आपका आवेदन स्वीकृत कर लिया गया है।",
+      "rejected": "ट्रैकिंग आईडी {{trackingId}} के साथ आपका आवेदन अस्वीकृत कर दिया गया है। कृपया विवरण के लिए जांच करें।",
+      "completed": "ट्रैकिंग आईडी {{trackingId}} के साथ आपका आवेदन सफलतापूर्वक पूरा हो गया है।",
+      "assigned": {
+        "title": "आवेदन सौंपा गया",
+        "message": "ट्रैकिंग आईडी {{trackingId}} के साथ आपका आवेदन {{staffName}} को सौंपा गया है।"
+      }
+    },
+    "document": {
+      "verification": {
+        "title": "दस्तावेज़ सत्यापन अपडेट",
+        "message": "आवेदन {{trackingId}} के लिए आपका दस्तावेज़ '{{documentName}}' {{status}} हो गया है।"
+      }
+    },
+    "announcement": {
+      "title": "नई घोषणा",
+      "message": "एक नई घोषणा पोस्ट की गई है: {{title}}"
+    },
+    "system": {
+      "title": "सिस्टम सूचना",
+      "login": "आप सफलतापूर्वक अपने खाते में लॉग इन हो गए हैं।",
+      "passwordChange": "आपका पासवर्ड सफलतापूर्वक बदल दिया गया है।",
+      "profileUpdate": "आपका प्रोफ़ाइल सफलतापूर्वक अपडेट किया गया है।",
+      "accountActivated": "आपका खाता सफलतापूर्वक सक्रिय कर दिया गया है।",
+      "accountDeactivated": "आपका खाता निष्क्रिय कर दिया गया है।",
+      "default": "एक सिस्टम घटना हुई है।"
+    },
+    "admin": {
+      "title": "प्रशासनिक कार्रवाई",
+      "staffCreated": "एक नया स्टाफ सदस्य बनाया गया है: {{name}}",
+      "staffUpdated": "स्टाफ सदस्य {{name}} को अपडेट किया गया है।",
+      "staffDeleted": "स्टाफ सदस्य {{name}} को हटा दिया गया है।",
+      "serviceCreated": "एक नई सेवा बनाई गई है: {{name}}",
+      "serviceUpdated": "सेवा {{name}} को अपडेट किया गया है।",
+      "serviceDeleted": "सेवा {{name}} को हटा दिया गया है।",
+      "default": "एक प्रशासनिक कार्रवाई की गई है।"
+    }
+  },
+  "user": {
+    "profileUpdated": "प्रोफ़ाइल सफलतापूर्वक अपडेट की गई",
+    "languageUpdated": "भाषा प्राथमिकता सफलतापूर्वक अपडेट की गई",
+    "promoted": "उपयोगकर्ता सफलतापूर्वक पदोन्नत",
+    "subRolesAssigned": "उप-भूमिकाएं सफलतापूर्वक सौंपी गईं",
+    "deactivated": "उपयोगकर्ता सफलतापूर्वक निष्क्रिय",
+    "activated": "उपयोगकर्ता सफलतापूर्वक सक्रिय"
+  },
+  "upload": {
+    "success": "फ़ाइल सफलतापूर्वक अपलोड की गई",
+    "invalidFileType": "अमान्य फ़ाइल प्रकार। केवल PDF, JPG, PNG फ़ाइलों की अनुमति है",
+    "fileTooLarge": "फ़ाइल का आकार बहुत बड़ा है। अधिकतम आकार 5MB है",
+    "tooManyFiles": "बहुत सारी फ़ाइलें। अधिकतम 10 फ़ाइलों की अनुमति है",
+    "unexpectedField": "अप्रत्याशित फ़ाइल फ़ील्ड"
+  },
+  "modals": {
+    "confirm": {
+      "title": "क्या आप निश्चित हैं?",
+      "description": "यह कार्रवाई पूर्ववत नहीं की जा सकती।",
+      "confirm": "पुष्टि करें",
+      "cancel": "रद्द करें"
+    },
+    "success": {
+      "title": "सफल!",
+      "close": "बंद करें"
+    },
+    "error": {
+      "title": "त्रुटि",
+      "close": "बंद करें"
+    }
+  },
+  "tooltips": {
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "view": "विवरण देखें",
+    "download": "डाउनलोड करें",
+    "filter": "परिणाम फ़िल्टर करें",
+    "refresh": "डेटा रिफ्रेश करें"
+  },
+  "accessibility": {
+    "skipToContent": "मुख्य सामग्री पर जाएं",
+    "increaseText": "टेक्स्ट आकार बढ़ाएं",
+    "decreaseText": "टेक्स्ट आकार घटाएं",
+    "highContrast": "उच्च कंट्रास्ट मोड टॉगल करें"
+  },
+  "help": {
+    "faq": "अक्सर पूछे जाने वाले प्रश्न",
+    "contactSupport": "सहायता से संपर्क करें",
+    "documentation": "दस्तावेज़ीकरण",
+    "howToApply": "सेवा के लिए कैसे आवेदन करें",
+    "troubleshooting": "समस्या निवारण"
+  },
+  "status": {
+    "pending": "लंबित",
+    "inReview": "समीक्षाधीन",
+    "approved": "स्वीकृत",
+    "rejected": "अस्वीकृत",
+    "completed": "पूर्ण",
+    "processing": "प्रक्रियाधीन",
+    "assigned": "नियुक्त",
+    "unassigned": "अनियुक्त"
+  },
+  "confirmation": {
+    "logout": "क्या आप वाकई लॉगआउट करना चाहते हैं?",
+    "submitApplication": "क्या आप वाकई इस आवेदन को जमा करना चाहते हैं?",
+    "uploadDocuments": "क्या आप वाकई इन दस्तावेजों को अपलोड करना चाहते हैं?"
+  },
+  "validation": {
+    "failed": "सत्यापन असफल"
+  },
+  "errors": {
+    "invalidId": "अमान्य ID प्रारूप",
+    "duplicateField": "{{field}} पहले से मौजूद है",
+    "notFound": "संसाधन नहीं मिला",
+    "accessDenied": "पहुंच से इनकार",
+    "unauthorized": "अनधिकृत",
+    "unauthorizedMessage": "आपको इस पेज तक पहुंचने की अनुमति नहीं है।",
+    "loginFailed": "लॉगिन विफल। कृपया अपने क्रेडेंशियल्स जांचें।",
+    "registrationFailed": "पंजीकरण विफल। कृपया पुनः प्रयास करें।",
+    "applicationSubmitFailed": "आवेदन जमा करने में विफल। कृपया पुनः प्रयास करें।",
+    "fileUploadFailed": "फ़ाइल अपलोड विफल। कृपया पुनः प्रयास करें।",
+    "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।",
+    "serverError": "सर्वर त्रुटि हुई। कृपया बाद में पुनः प्रयास करें।",
+    "forbidden": "आपको इस संसाधन तक पहुंच नहीं है।",
+    "validation": "कुछ फ़ील्ड अमान्य हैं। कृपया जांचें और पुनः प्रयास करें।"
+  },
+  "success": {
+    "loginSuccess": "लॉगिन सफल!",
+    "registrationSuccess": "पंजीकरण सफल! डिजिटल ई ग्राम पंचायत में आपका स्वागत है!",
+    "applicationSubmitted": "{{service}} के लिए आवेदन जमा किया गया!",
+    "documentsUploaded": "दस्तावेज सफलतापूर्वक अपलोड किए गए!",
+    "profileUpdated": "प्रोफ़ाइल सफलतापूर्वक अपडेट किया गया!",
+    "settingsSaved": "सेटिंग्स सफलतापूर्वक सहेजी गईं!",
+    "announcementCreated": "घोषणा सफलतापूर्वक बनाई गई!",
+    "serviceAdded": "सेवा सफलतापूर्वक जोड़ी गई!",
+    "staffAdded": "स्टाफ सदस्य सफलतापूर्वक जोड़ा गया!"
+  },
+  "common": {
+    "serverError": "आंतरिक सर्वर त्रुटि",
+    "success": "ऑपरेशन सफलतापूर्वक पूरा हुआ",
+    "dataRetrieved": "डेटा सफलतापूर्वक प्राप्त किया गया"
+  },
+  "email": {
+    "application": {
+      "statusUpdate": {
+        "subject": "आवेदन स्थिति अपडेट - {{trackingId}}",
+        "title": "आवेदन स्थिति अपडेट"
+      },
+      "service": "सेवा",
+      "trackingId": "ट्रैकिंग आईडी",
+      "status": "स्थिति",
+      "comment": "टिप्पणी",
+      "checkDashboard": "अधिक विवरण के लिए कृपया अपना डैशबोर्ड देखें।"
+    },
+    "footer": "© 2024 डिजिटल ई ग्राम पंचायत। भारत सरकार।"
+  }
+}
